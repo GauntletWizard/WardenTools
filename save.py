@@ -22,7 +22,6 @@ class TokenParser:
   def parse(self, token):
     if self.mode == self.NAME:
       if token == "BEGIN":
-        print len(self.stack)
         self.mode = self.OBJNAME
       elif token == "END":
         self.manip = self.stack.pop()
