@@ -16,6 +16,7 @@ local.properties
 .settings/
 .loadpath
 
+
 # External tool builders
 .externalToolBuilders/
 
@@ -62,6 +63,7 @@ local.properties
 *.vspscc
 .builds
 *.dotCover
+*.stackdump
 
 ## TODO: If you have NuGet Package Restore enabled, uncomment this
 #packages/
@@ -125,6 +127,7 @@ Thumbs.db
 
 # Folder config file
 Desktop.ini
+Prison Architect
 
 
 #############
